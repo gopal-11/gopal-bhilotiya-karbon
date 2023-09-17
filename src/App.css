@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+#input {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  height: 100%;
+  background-color: grey;
+}
+
+.header_main {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.678);
+  z-index: 1000;
+  top: 0;
+  height: 50;
+  width: 100%;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+}
+
+.home_icon {
+  margin-right: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
